@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  scan:
+    build: .
+    env_file: .env
